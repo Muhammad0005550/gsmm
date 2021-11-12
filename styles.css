@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(226, 223, 223);
+color: rgb(29, 27, 27);
+
+font-size: 16px;
+font-weight: normal;
+font-family: normal 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+a:active {color: blue;}
+
+a:visited{color: rgba(82, 81, 81, 0);}
+
+.image {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25 );
+}
+.info p{
+    color: #4b4b4b;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    
+/* letter-spacing: 5px*/
+}
+
+.info {margin-bottom: 20px;
+display: flex;}
+
+@media (max-width: 700px) {
+    .info{ text-align: center;
+        display: block;}   }
+
+.im {
+    margin-left: 40px;
+}
+.im h4 {
+    margin-bottom: 10px;
+}
+
+.vse {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+
+.soc  {
+background: green;
+/*padding: 15px;*/
+/*padding: 15px 40px;*/
+padding: 15px 20px 25px 30px;
+
+margin: 20px;
+border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: 15px;
+}
+
+
+.bg-yellow {
+
+    background:#fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {   
+padding: 15px 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+.list li {color: #868686;
+margin-bottom: 10px;}
+
+table{
+    width: 100%;
+}
+.bg-green {margin: 5;}
+
+.table td{padding-bottom: 10px;}
+.table td:nth-child(2), .table td:nth-child(3) {color: #868686;}
+/*.table tr:nth-child(odd) {background: red;}*/
+.hiz {
+    padding: 0;
+    list-style: none;
+}
+.hiz {
+    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.contact h2 { text-align: center;}
+
+.group label {
+    display: block;
+    font-size: 14px;
+    color: #868686;
+}
+.group input, .group textarea{
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .group{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .group:last-child{
+margin-right: 0;
+}
+/*
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}*/
+
+/*position*/
+/*.position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+}*/
